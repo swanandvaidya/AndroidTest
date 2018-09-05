@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidTest</string>
+    <string name="et_username_hint">Username</string>
+    <string name="et_password_hint">Password</string>
+    <string name="btn_text_login">Login</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="subscription_key" />
+    <string name="activity_login">Login</string>
+    <string name="activity_search">Search Product</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ui.LoginActivity">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_or_margin_16_dp"
+        android:hint="@string/et_username_hint"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_or_margin_16_dp"
+        android:layout_marginTop="@dimen/padding_or_margin_16_dp"
+        android:hint="@string/et_password_hint"
+        android:layout_below="@id/et_username"
+        android:inputType="textPassword"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_or_margin_16_dp"
+        android:layout_below="@id/et_password"
+        android:background="@drawable/btn_rounded_shape"
+        android:text="@string/btn_text_login"
+        android:textColor="@color/color_white"
+        android:textAllCaps="false"
+        android:textSize="@dimen/primary_tv_size"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

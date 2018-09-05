@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- card view related margins, padding, etc-->
+    <dimen name="card_corner_radius">6dp</dimen>
+    <dimen name="card_view_margin">8dp</dimen>
+
+    <!-- all text view sizes -->
+    <dimen name="tv_size_20sp">20sp</dimen>
+    <dimen name="primary_tv_size">18sp</dimen>
+    <dimen name="secondary_tv_size">16sp</dimen>
+    <dimen name="tertiary_text_size">14sp</dimen>
+
+
+    <!-- different sizes of padding and margins -->
+    <dimen name="padding_or_margin_16_dp">16dp</dimen>
+    <dimen name="padding_or_margin_8_dp">8dp</dimen>
+    <dimen name="padding_or_margin_4_dp">4dp</dimen>
+
+    <!-- button rounded shape radius -->
+    <dimen name="btn_rounded_shape_radius">30dp</dimen>
+
+</resources>

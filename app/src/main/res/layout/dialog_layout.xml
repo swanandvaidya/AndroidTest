@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_or_margin_8_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/tv_product_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/primary_tv_size"
+        android:textStyle="bold"
+        android:padding="@dimen/padding_or_margin_8_dp"/>
+
+    <ImageView
+        android:id="@+id/iv_product"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_below="@id/tv_product_desc"
+        android:layout_marginTop="@dimen/padding_or_margin_8_dp"/>
+
+    <TextView
+        android:id="@+id/tv_product_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/iv_product"
+        android:layout_toRightOf="@id/iv_product"
+        android:layout_below="@id/tv_product_desc"
+        android:layout_marginTop="@dimen/padding_or_margin_8_dp"
+        android:layout_marginLeft="@dimen/padding_or_margin_8_dp"
+        android:textSize="@dimen/secondary_tv_size"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:id="@+id/tv_product_sub_dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/iv_product"
+        android:layout_toRightOf="@id/iv_product"
+        android:layout_below="@id/tv_product_class"
+        android:layout_marginLeft="@dimen/padding_or_margin_8_dp"
+        android:layout_marginTop="@dimen/padding_or_margin_8_dp"
+        android:textSize="@dimen/secondary_tv_size"
+        android:maxLines="1"
+       />
+
+    <TextView
+        android:id="@+id/tv_product_barcode_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/iv_product"
+        android:layout_toRightOf="@id/iv_product"
+        android:layout_below="@id/tv_product_sub_dept"
+        android:layout_marginTop="@dimen/padding_or_margin_8_dp"
+        android:layout_marginLeft="@dimen/padding_or_margin_8_dp"
+        android:textSize="@dimen/secondary_tv_size"
+        android:maxLines="1"/>
+
+</RelativeLayout>
